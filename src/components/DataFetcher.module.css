@@ -1,0 +1,82 @@
+.container {
+  background-color: rgb(207, 255, 253);
+  border: 1px solid hsla(0, 0%, 0%, 0.8);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  width: 500px;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.title {
+    color: hsl(0, 100%, 50%);
+    font-size: 32px;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+.paragraph2 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.alert {
+    color: hsl(0, 100%, 50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.logo {
+    width: 30%;
+    border-radius: 30%;
+    float: right;
+}
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px ;
+}
+
+.button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.prev {
+    background-color: hsl(115, 100%, 40%);
+}
+
+.prev:hover {
+    background-color: hsl(115, 100%, 35%);
+}
+
+.reset {
+    background-color: hsl(10, 100%, 50%);
+}
+
+.reset:hover {
+    background-color: hsl(10, 100%, 45%);
+}
+.next {
+    background-color: hsl(205, 90%, 60%);
+}
+
+.next:hover {
+    background-color: hsl(205, 90%, 55%);
+}
